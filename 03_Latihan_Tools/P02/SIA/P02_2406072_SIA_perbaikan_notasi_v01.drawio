@@ -1,0 +1,28 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="XMlCWDDp_iamXcsPOijR">
+    <mxGraphModel dx="419" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P49uTEUnJCBe2BRcyzpT-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Sistem Laboratorium" vertex="1">
+          <mxGeometry height="490" width="220" x="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P49uTEUnJCBe2BRcyzpT-8" edge="1" parent="P49uTEUnJCBe2BRcyzpT-2" source="P49uTEUnJCBe2BRcyzpT-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="P49uTEUnJCBe2BRcyzpT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P49uTEUnJCBe2BRcyzpT-1" parent="P49uTEUnJCBe2BRcyzpT-2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="P49uTEUnJCBe2BRcyzpT-5" parent="P49uTEUnJCBe2BRcyzpT-2" style="fontStyle=0;html=1;whiteSpace=wrap;" value="Lihat Jadwal Kuliah" vertex="1">
+          <mxGeometry height="40" width="120" x="90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P49uTEUnJCBe2BRcyzpT-7" parent="P49uTEUnJCBe2BRcyzpT-2" style="ellipse;html=1;whiteSpace=wrap;" value="Kelola Jadwal Kuliah" vertex="1">
+          <mxGeometry height="50" width="100" x="100" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="P49uTEUnJCBe2BRcyzpT-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="60" width="30" x="490" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

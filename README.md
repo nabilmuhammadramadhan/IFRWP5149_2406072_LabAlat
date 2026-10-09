@@ -2,7 +2,7 @@
 
 ### Praktikum Analisis Desain Berorientasi Objek
 
-- 🌱 I'm currently learning **Pengenalan Lingkungan Praktikum dan Kakas Pemodelan UML**
+- 🌱 I'm currently learning **Petemuan 2: UNIFIED MODELLING LANGUAGE (UML)**
 
 - 📫 How to reach me **2406072@itg.ac.id**
 
