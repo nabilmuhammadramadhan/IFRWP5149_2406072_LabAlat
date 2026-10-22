@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |       Elemen        |                             SIA-UC03_-_Ajukan_KRS                              |
 |---------------------|--------------------------------------------------------------------------------|
 |       Tujuan        |                   Menghasilkan pengajuan KRS yang tersimpan                    |
@@ -10,5 +11,7 @@
 |       Include       |                            SIA-UC04 — Validasi_KRS                             |
 |   Extension_point   |                      Konfirmasi penyimpanan pengajuan KRS                      |
 |       Extend        |               SIA-UC05 jika [mahasiswa memilih mengunduh bukti]                |
+=======
+>>>>>>> 22994a0012dd8e054e6523f15a1fc203a0cd23c3
 
 

@@ -10,6 +10,7 @@
 |       Include       |                LAB-UC04 — Periksa ketersediaan                |
 |   Extension_point   |           Bukti pengajuan tersedia, pada langkah 6            |
 |       Extend        |            LAB-UC05 jika [mahasiswa memilih cetak]            |
+<<<<<<< HEAD
 
 
 |       Elemen        |                                                     SIA-UC04_-_Validasi_KRS                                                     |
@@ -52,3 +53,5 @@
 |       Include       |                                                    -                                                    |
 |   Extension_point   |                                                    -                                                    |
 |       Extend        |                                                    -                                                    |
+=======
+>>>>>>> 22994a0012dd8e054e6523f15a1fc203a0cd23c3

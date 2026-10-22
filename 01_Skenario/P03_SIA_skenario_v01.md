@@ -26,6 +26,7 @@ Batas dan asumsi:
 • KRS tersimpan belum berarti disetujui.
 • Pembayaran, pengisian nilai, dan implementasi basis data berada di luar tugas
 
+<<<<<<< HEAD
 <!-- tabel identifikasi aktor -->
 |  Aktor  |                          Tujuan_terhadap_sistem                           |
 |---------|---------------------------------------------------------------------------|
@@ -52,4 +53,6 @@ SIA-UC05 «extend» SIA-UC03
 Extension point: Konfirmasi penyimpanan pengajuan KRS.
 Kondisi: [mahasiswa memilih mengunduh bukti].
 Alasan: Pengajuan KRS tetap berhasil disimpan meskipun mahasiswa tidak melakukan pengunduhan bukti.
+=======
+>>>>>>> 22994a0012dd8e054e6523f15a1fc203a0cd23c3
 

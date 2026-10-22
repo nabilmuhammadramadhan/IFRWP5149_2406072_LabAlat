@@ -2,7 +2,11 @@
 
 ### Praktikum Analisis Desain Berorientasi Objek
 
+<<<<<<< HEAD
 - 🌱 I'm currently learning **PERTEMUAN 3: USE CASE DIAGRAM DAN USE CASE DESCRIPTION**
+=======
+- 🌱 I'm currently learning **Petemuan 2: UNIFIED MODELLING LANGUAGE (UML)**
+>>>>>>> 22994a0012dd8e054e6523f15a1fc203a0cd23c3
 
 - 📫 How to reach me **2406072@itg.ac.id**
 
