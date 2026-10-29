@@ -71,4 +71,34 @@ panah Dosen mengarah ke atas; keduanya berakhir pada Peminjam.
 |Berubah_karena_generalization_aktor|                                          Asosiasi_ke_LAB-UC01_dan_LAB-UC03_yang_pada_Pertemuan_3_digambar_dari_Mahasiswa_kini_digambar_satu_kali_dari_Peminjam._Fungsi_mahasiswa_tidak_hilang:_mahasiswa_mewarisinya_dari_Peminjam._Inilah_satu-satunya_perubahan_garis_pada_diagram_lama,_dan_alasannya_adalah_aturan_generalization,_bukan_penghapusan_fungsi.                                           |
 |     Ditambah_pada_Pertemuan_4     |                                  Aktor_Peminjam_dan_Dosen;_dua_generalization_aktor;_use_case_LAB-UC08,_LAB-UC09,_LAB-UC10_beserta_tiga_generalization_use_case_ke_LAB-UC02;use_case_LAB-UC11_dan_LAB-UC12_beserta_relasi«include»_di_antara_keduanya_dan_asosiasi_Petugas_Laboratorium_ke_LAB-UC11;_collaboration_LAB-CO01_dan_LAB-CO02_beserta_dua_relasi_realization.                                   |
  
+<!-- Tetapkan generalization use case -->
+|   ID   |Nama_collaboration_(sama_dengan_nama_use_case)|     Use_case_yang_direalisasikan      |
+|--------|----------------------------------------------|---------------------------------------|
+|LAB-CO01|              Ajukan_Peminjaman               |      LAB-UC03:_Ajukan_Peminjaman      |
+|LAB-CO02|         Catat_Pengembalian_Peralatan         |LAB-UC11:_Catat_Pengembalian_Peralatan |
+
+<!-- use case description baru -->
+|       Elemen        |                                LAB-UC11:_Catat_Pengembalian_Peralatan                                |
+|---------------------|------------------------------------------------------------------------------------------------------|
+|     ID_dan_nama     |                                LAB-UC11:_Catat_Pengembalian_Peralatan                                |
+|  Sumber_kebutuhan   |                                         LAB-R09_dan_LAB-R10                                          |
+|       Tujuan        |             Pengembalian_tercatat_dan_status_peminjaman_serta_kondisi_peralatan_terbaru              |
+|     Aktor_utama     |                                         Petugas_Laboratorium                                         |
+|       Pemicu        |   Petugas_memilih_fungsi_pencatatan_pengembalian_dan_menentukan_peminjaman_yang_akan_dikembalikan    |
+|      Prasyarat      |                 Petugas_telah_terautentikasi;_peminjaman_terpilih_berstatus_Dipinjam                 |
+|Pascakondisi_berhasil|Pengembalian_tercatat_dengan_tanggal_kembali_dan_kondisi_peralatan;_status_peminjaman_menjadi_Selesai |
+| Pascakondisi_gagal  |              Tidak_ada_pengembalian_baru_yang_tercatat;_status_peminjaman_tidak_berubah              |
+|       Include       |                                 LAB-UC12:_Periksa_Kondisi_Peralatan                                  |
+|    Collaboration    |                                LAB-CO02:_Catat_Pengembalian_Peralatan                                |
+
+<!-- Alur utama -->
+|Langkah|              Tindakan_petugas               |                                  Respons_sistem                                  |
+|-------|---------------------------------------------|----------------------------------------------------------------------------------|
+|   1   |  Memilih_peminjaman_yang_akan_dikembalikan  |                Menampilkan_data_peminjaman_terpilih_dan_statusnya                |
+|   2   |Mengonfirmasi_alat_yang_kembali_dan_jumlahnya|                           Menampung_konfirmasi_petugas                           |
+|   3   |                  Tidak_ada                  |                    Memeriksa_status_peminjaman_harus_Dipinjam                    |
+|   4   |                  Tidak_ada                  |          Menjalankan_LAB-UC12:_memeriksa_dan_mencatat_kondisi_peralatan          |
+|   5   |      Menyimpan_pencatatan_pengembalian      |Menyimpan_tanggal_kembali_dan_kondisi;_mengubah_status_peminjaman_menjadi_Selesai |
+|   6   |             Melihat_konfirmasi              |                        Menampilkan_ringkasan_pengembalian                        |
+ 
 

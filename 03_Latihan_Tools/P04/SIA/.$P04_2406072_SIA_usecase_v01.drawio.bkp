@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Halaman-1" id="AnueWQKWzAU14vy4LfD5">
+    <mxGraphModel dx="797" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-3" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Sistem Informasi Akademik" vertex="1">
+          <mxGeometry height="640" width="480" x="290" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-9" parent="Y4TF8OCON3Pj7e_8aAtU-3" style="ellipse;html=1;whiteSpace=wrap;" value="SIA-UC01: Lihat Jadwal Kuliah" vertex="1">
+          <mxGeometry height="50" width="100" x="24" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-10" parent="Y4TF8OCON3Pj7e_8aAtU-3" style="ellipse;html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;" value="SIA-CO01: Input Nilai Mata Kuliah" vertex="1">
+          <mxGeometry height="50" width="100" x="24" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-14" parent="Y4TF8OCON3Pj7e_8aAtU-3" style="ellipse;html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;" value="&lt;div&gt;SIA-CO02: Lihat KHS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="24" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-15" parent="Y4TF8OCON3Pj7e_8aAtU-3" style="ellipse;html=1;whiteSpace=wrap;" value="&lt;div&gt;SIA-UC05: Unduh Bukti Pengajuan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="24" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen" vertex="1">
+          <mxGeometry height="60" width="30" x="797" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin&amp;nbsp;&lt;div&gt;Akademik&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="797" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen Wali" vertex="1">
+          <mxGeometry height="60" width="30" x="797" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4TF8OCON3Pj7e_8aAtU-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Civitas&lt;div&gt;Akademik&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="210" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
