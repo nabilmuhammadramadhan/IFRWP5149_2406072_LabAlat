@@ -2,7 +2,7 @@
 
 ### Praktikum Analisis Desain Berorientasi Objek
 
-- 🌱 I'm currently learning **PERTEMUAN 6 Diagram Activity Diagram**
+- 🌱 I'm currently learning **PERTEMUAN 7 ASSISMENT*
 
 - 📫 How to reach me **2406072@itg.ac.id**
 
