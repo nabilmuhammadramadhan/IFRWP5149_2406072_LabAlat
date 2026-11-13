@@ -1,6 +1,6 @@
 ID artefak              : LAB-P04-UC
 Judul                   : USE CASE DIAGRAM DAN USE CASE DESCRIPTION
-Pertemuan               : 03
+Pertemuan               : 04
 Sumber kebutuhan        : LAB-R01; LAB-R04
 Jenis/status            : USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN COLLABORATION
 Kakas                   : Draw.io
